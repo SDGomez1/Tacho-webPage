@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen bg-purple flex-col items-center ">
+    <main className="flex min-h-screen relative overflow-hidden bg-purple -z-50 flex-col items-center ">
       <Navbar />
       <Hero />
     </main>
